@@ -48,6 +48,25 @@ body{
     align-items: center;
 }
 
+/* my learning popup */
+.mylearning{
+    position: relative;
+}
+.mylearning__popup{
+    position: absolute;
+    width: 150px;
+    padding: 5px;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: solid rgb(0, 0, 0) 1px;
+    display: none;
+}
+
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
+
 .categories{
     display: flex;
     padding: 10px;
