@@ -10,13 +10,14 @@ body{
 .navbar{
     padding: 10px;
     display: flex;
+    background-color: white;
     justify-content: space-between;
     border-bottom: solid black 2px;
     gap: 10px;
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: white;
+    
 }
 
 .navbar__s1__title{
