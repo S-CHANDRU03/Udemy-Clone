@@ -16,6 +16,7 @@ body{
     align-items: center;
     position: sticky;
     top: 0;
+    background-color: white;
 }
 
 .navbar__s1__title{
@@ -30,6 +31,7 @@ body{
     display: flex;
     gap: 10px;
     align-items: center;
+    background-color: white;
 }
 
 .navbar__s2 input{
