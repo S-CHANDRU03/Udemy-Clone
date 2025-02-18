@@ -17,6 +17,7 @@ body{
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
     
 }
 
@@ -96,6 +97,7 @@ body{
 .sale-image img{
     width: 100%;
     margin-top: 1px;
+    position: relative;
 }
 
 .sale-image__offer{
@@ -103,13 +105,13 @@ body{
     border: black solid 2px;
     width: 490px;
     padding: 20px;
-    position: relative;
-    bottom: 270px;
+    bottom: 290px;
     left: 80px;
     animation-name: zoom;
     animation-duration: 1.5s;
     opacity: 0;
     animation-fill-mode: forwards;
+    position: absolute;
 }
 
 @keyframes zoom {
@@ -157,7 +159,7 @@ body{
 }
 
 .topics__container p{
-    border: solid #A435F0 2px;
+    border: solid #000000 2px;
     background-color:black;
     color: white;
     padding: 10px;
