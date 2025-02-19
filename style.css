@@ -165,16 +165,21 @@ body{
     margin-top: 10px;
     flex-wrap: wrap;
 }
-
+.topics__container p:hover {
+    background-color: rgb(164, 53, 240);
+    border: solid rgb(164, 53, 240) 1px;
+    color: white;
+    border: black solid 2px;
+}
 .topics__container p{
     border: solid #000000 2px;
     background-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 10px;
-    flex-basis: 31.2%;
-    flex-grow: 0;
-
+    padding: 5px;
+    flex-basis: 25%;
+    flex-grow: 1;
 }
+
 
 .popular{
     padding: 10px;
@@ -208,14 +213,7 @@ body{
 
 @media screen and (max-width:1500px){
 
-    .topics__container p{
-        border: solid #000000 2px;
-        background-color:rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px;
-        flex-basis: 30.4%;
-        flex-grow: 0;
-    }
+  
 }
 
 
@@ -234,14 +232,7 @@ body{
     opacity: 0;
     animation-fill-mode: forwards;
 }
-.topics__container p{
-    border: solid #000000 2px;
-    background-color:rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    flex-basis: 29.6%;
-    flex-grow: 0;
-}
+
 }
 
 
@@ -266,14 +257,7 @@ body{
     animation-fill-mode: forwards;
 
     }
-    .topics__container p{
-        border: solid #000000 2px;
-        background-color:rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px;
-        flex-basis: 28.6%;
-        flex-grow: 0;
-    }
+   
 
 @media screen and (max-width:600px) {
 
@@ -313,14 +297,7 @@ body{
     .sale-image__offer__p1{
         font-size: 8.5px;
     }
-    .topics__container p{
-        border: solid #000000 2px;
-        background-color:rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px;
-        flex-basis: 25%;
-        flex-grow: 0;
-    }
+   
 }    
     
 }
