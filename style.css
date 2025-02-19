@@ -277,7 +277,7 @@ body{
     }
     .sale-image__offer{
         background-color: white;
-    border: black solid 2px;
+    border: black solid 1px;
     width: 35%;
     height: 8%;
     padding: 5px;
