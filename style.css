@@ -278,8 +278,11 @@ body{
 
     }
     .sale-image__offer__h1{
-        font-size: 8px;
+        font-size: 10px;
         padding-bottom: 10px;
+    }
+    .sale-image__offer__p1{
+        font-size: 9px;
     }
 }    
     
