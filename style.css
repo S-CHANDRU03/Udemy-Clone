@@ -171,8 +171,8 @@ body{
     background-color:black;
     color: white;
     padding: 10px;
-    flex-basis: 25%;
-    flex-grow: 1;
+    flex-basis: 26.6%;
+    flex-grow: 0;
 
 }
 
